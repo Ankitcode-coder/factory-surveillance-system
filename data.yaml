@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['sleep', 'sleeping', 'sleepping']
+
+roboflow:
+  workspace: name-5etwh
+  project: sleeping-6xwpn
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/name-5etwh/sleeping-6xwpn/dataset/7
